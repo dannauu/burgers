@@ -19,7 +19,7 @@ Before running the application user must perform "npm install" to install all re
 
 ## Usage
 ### Application in use below
-![]()
+![](public\assets\img\App-Screenshot.PNG)
 ![]()
 ![]()
 
@@ -38,15 +38,15 @@ Fork the repository and make any necessary changes you see fit and submit a pull
 ## Technologies
 
 ### Front-End Technologies
--HTML
--CSS
--Bootstrap 
--Javascript
--Handlebars
+1. HTML
+2. CSS
+3. Bootstrap 
+4. Javascript
+5. Handlebars
 
 ### Back-End Technologies
--Node
--MySQL
--Express
--ORM
+1. Node
+2. MySQL
+3. Express
+4. ORM
 
