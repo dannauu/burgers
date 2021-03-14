@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: darkgray;
+  font-family: "Cormorant Unicase", serif;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+  font-family: cursive;
+}
+
+.col-4 {
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  background: white;
+  text-transform: capitalize;
+  font-size: x-large;
+  padding: 10px;
+  border-radius: 10%;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px 5px rgba(5, 5, 5, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2 {
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  border-bottom: 1px solid black;
+  font-weight: 700;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size: xx-large;
+  margin-right: 10px;
+  background: #f8f9fa;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button,
+input {
+  overflow: visible;
+  height: 58px;
+}
+
+.burgerLabel {
+  background-color: darkgray;
+}
+
+.btn {
+  cursor: pointer;
+  margin-bottom: 10px;
+  background-color: gray;
+  border: none;
+  height: 30%;
+  box-shadow: 3px 3px 3px 3px rgba(5, 5, 5, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  font-weight: bolder;
+}
+
+img {
+  width: 60%;
+  margin: auto;
+  display: block;
+}
+
+.header {
+  font-size: 50px;
+  font-family: "Cormorant Unicase", serif;
+  font-family: "Lato", sans-serif;
+  font-weight: 1000;
+  margin-bottom: 40px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.inputBurger {
+  font-weight: bold;
+}
+
+#burger {
+  height: 35px;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.img-fluid {
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px 5px rgba(5, 5, 5, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
