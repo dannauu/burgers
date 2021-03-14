@@ -5,7 +5,6 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#Usage)
-- [Tutorial](#Tutorial)
 - [License](#License)
 - [Contribution](#Contribution)
 - [Technologies](#Technologies)
@@ -20,10 +19,6 @@ Before running the application user must perform "npm install" to install all re
 ## Usage
 ### Application in use below
 ![](/public/assets/img/App-Gif.gif)
-
-## Tutorial
-
-[Video Tutorial]()
 
 ## License
 
