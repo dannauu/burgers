@@ -4,6 +4,7 @@ var router = express.Router();
 
 var burger = require("../models/burger.js");
 
+// Handler route for getting and displaying all burgers from DB
 router.get('/', (req, res) => {
     burger.all((data) => {
         const obj = {
@@ -14,7 +15,7 @@ router.get('/', (req, res) => {
     });
 });
 
-
+//  Handler route for creating new burger in DB
 router.post("/api/burgers",(req, res) => {
     console.log(res.body)
     burger.create(["burger_name", "devoured"], [req.body.burger_name, req.body.devoured], function(result) {
@@ -23,11 +24,9 @@ router.post("/api/burgers",(req, res) => {
     });
   });
 
+  // Handler Route for updating if burger has been devoured
   router.put("/api/burgers/:id", function(req, res) {
     var condition = "id = " + req.params.id;
-  
-    console.log("condition", condition);
-  
     burger.update({
       devoured: req.body.devoured
     }, condition, function(result) {

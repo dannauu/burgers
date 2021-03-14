@@ -1,5 +1,6 @@
 var orm = require("../config/orm.js");
 
+//  SQL Statements imported from ORM
 const burger = {
   all(cb) {
     orm.all("burgers", (res) => cb(res));

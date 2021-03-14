@@ -13,7 +13,7 @@ const objToSql = (ob) => {
   }
   return arr.toString();
 };
-
+// Function to insert ?'s into SQL Queries
 const printQuestionMarks = (num) => {
   const arr = [];
 
@@ -23,6 +23,7 @@ const printQuestionMarks = (num) => {
   return arr.toString();
 }; 
 
+// ORM or Object Relational Mapping
 const orm = {
   all(tableInput, cb) {
     const queryString = `SELECT * FROM ${tableInput};`;
