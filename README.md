@@ -20,8 +20,7 @@ Before running the application user must perform "npm install" to install all re
 ## Usage
 ### Application in use below
 ![](/public/assets/img/App-Screenshot.PNG)
-![]()
-![]()
+![](/public/assets/img/App-Gif.gif)
 
 ## Tutorial
 
