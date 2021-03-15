@@ -1,5 +1,6 @@
 const mysql = require("mysql");
 
+// Sets up database connection for jawsdb or local
 if (process.env.JAWSDB_URL) {
   connection.mysql.createConnection(process.env.JAWSDB_URL);
 } else {
