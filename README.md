@@ -18,7 +18,8 @@ Before running the application user must perform "npm install" to install all re
 
 ## Usage
 ### Application in use below
-[Live Link](https://enigmatic-beach-96316.herokuapp.com/)
+[Deployed App](https://enigmatic-beach-96316.herokuapp.com/)
+
 ![](/public/assets/img/App-Gif.gif)
 
 ## License
