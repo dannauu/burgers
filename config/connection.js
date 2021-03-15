@@ -1,8 +1,9 @@
 const mysql = require("mysql");
+var connection;
 
 // Sets up database connection for jawsdb or local database if env variable fails
 if (process.env.JAWSDB_URL) {
-  connection.mysql.createConnection(process.env.JAWSDB_URL);
+  connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
   connection = mysql.createConnection({
     host: "localhost",
@@ -14,12 +15,6 @@ if (process.env.JAWSDB_URL) {
 }
 
 // Connects to database
-connection.connect((err) => {
-  if (err) {
-    console.error(`error connecting: ${err.stack}`);
-    return;
-  }
-  console.log(`connected as id ${connection.threadId}`);
-});
+connection.connect();
 
 module.exports = connection;
